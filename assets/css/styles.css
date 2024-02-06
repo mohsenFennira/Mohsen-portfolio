@@ -500,7 +500,7 @@ background-color:var(--first-color);
 }
 
 .skills__angular{
-  width: 70%;
+  width: 90%;
 }
 
 .skills__node{
@@ -737,7 +737,9 @@ padding: 0 1.5rem;
 }
 
 .portfolio__img {
-  width: 400px;
+  width: 600px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  object-fit: cover;
   border-radius: .5rem;
   justify-content: center;
 }
